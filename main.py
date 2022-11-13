@@ -11,9 +11,9 @@ async def root():
 def hello():
     return {"message": "안녕하세요 파이보"}
 
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+# @app.get("/hello/{name}")
+# async def say_hello(name: str):
+#     return {"message": f"Hello {name}"}
 
 
 
